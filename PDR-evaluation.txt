@@ -1,0 +1,20 @@
+Sam, Adam, and Rachel
+
+CMSI 387 Operating Systems
+   Semester Project
+===================================
+
+I agree that this will be a very useful command!  I get tired of having
+to tell GCC that I DON'T want the output file to be named "a.out".
+
+My one concern is that you'll be modifying GCC, which is a bolt-on kind
+of utility and isn't all that tightly coupled to the kernel.  However, if
+you write it in such a way that you can integrate it into the kernel, that
+would certainly fill the bill!
+
+We can discuss this a bit more to make it work.
+
+Very useful idea!!
+
+Project tentatively approved.  Good work and good luck!
+
