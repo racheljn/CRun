@@ -1,0 +1,27 @@
+Sam, Adam, & Rachel
+
+CMSI 387 Operating Systems
+   Semester Project
+===================================
+This is very nice work!  The diagram is informative.
+
+
+Evaluation:
+   2.1   25 out of 25
+   2.2   25 out of 25
+   2.3   25 out of 25
+   2.4   25 out of 25
+
+   total 100 out of 100 which is an A-plus
+
+Keep up the good work!
+
+Total on project for the semester:
+
+   homework01     100.0%
+   homework02      92.5%
+   project so far 100.0% [20 out of 20]
+
+   participation  Sam   :  86.96% so far
+                  Adam  :  86.96% so far
+                  Rachel:  95.65% so far
