@@ -27,7 +27,6 @@
       compileArgs[2] = "-o";
       compileArgs[3] = fileout;
       compileArgs[4] = NULL;
-      printf("%s\n", fileout);
 
       pid_t returnedValue = fork();
       if( returnedValue < 0 ) {
