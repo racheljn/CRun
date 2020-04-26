@@ -27,6 +27,7 @@
       compileArgs[2] = "-o";
       compileArgs[3] = fileout;
       compileArgs[4] = NULL;
+      printf("%s\n", fileout);
 
       pid_t returnedValue = fork();
       if( returnedValue < 0 ) {
@@ -35,6 +36,7 @@
 
       // fork was successful, so handle the input
       } else if( returnedValue == 0 ) {
+         remove(fileout);
          retval = execvp( "gcc", compileArgs );
          perror( "error executing command" );
          return -1;
