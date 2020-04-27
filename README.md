@@ -7,7 +7,7 @@ CRun has a very simple purpose -- to no longer have to type "gcc {filename.c} -o
 CRun uses fork() and execvp() to create a new thread that compiles your C program in one thread and then executes the compiled program afterwards in another thread.\\CRun will always have the resulting a.out file be named the same name as your C file but without the ".c" at the end (for example helloWorld.c would compile a helloWorld executable).\\Before compiling your program crun will delete any instances of the resulting executable that may already exist in the directory to ensure that it runs the newest compiled executable (or nothing at all if your program fails to compile). 
 
 ### Installation
-Clone CRun to your local machine by typing this in your terminal: ```git clone (https://github.com/racheljn/CRun.git)```
+Clone CRun to your local machine by typing this in your terminal: ```git clone https://github.com/racheljn/CRun.git```
 
 ### Demos
 * hello.c is a basic Hello World program that prints out "Hello, World!" to the console that tests CRun without any arguments\
