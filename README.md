@@ -4,8 +4,10 @@
 CRun has a very simple purpose -- to no longer have to type "gcc {filename.c} -o filename && ./filename {params}, and instead to be able to simply type "./crun {filename.c} {params}" into you terminal whenever you want to compile and run a C program.
 
 ### How it works
-CRun uses fork() and execvp() to create a new thread that compiles your C program in one thread and then executes the compiled program afterwards in another thread.  
+CRun uses fork() and execvp() to create a new thread that compiles your C program in one thread and then executes the compiled program afterwards in another thread.    
+
 CRun will always have the resulting a.out file be named the same name as your C file but without the ".c" at the end (for example helloWorld.c would compile a helloWorld executable).  
+
 Before compiling your program crun will delete any instances of the resulting executable that may already exist in the directory to ensure that it runs the newest compiled executable (or nothing at all if your program fails to compile). 
 
 ### Installation
